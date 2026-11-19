@@ -1,0 +1,16 @@
+# Rahasia - JANGAN pernah di-commit (kena -20 poin)
+.env
+*.pem
+*.key
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.idea/
+*.iml
+android/local.properties
+android/key.properties
+*.jks

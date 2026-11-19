@@ -1,0 +1,18 @@
+[
+  {"type":"function","name":"tambahTugas","stateMutability":"nonpayable",
+   "inputs":[{"name":"judul","type":"string"}],"outputs":[]},
+  {"type":"function","name":"tandaiSelesai","stateMutability":"nonpayable",
+   "inputs":[{"name":"id","type":"uint256"}],"outputs":[]},
+  {"type":"function","name":"jumlahTugas","stateMutability":"view",
+   "inputs":[],"outputs":[{"name":"","type":"uint256"}]},
+  {"type":"function","name":"ambilTugas","stateMutability":"view",
+   "inputs":[{"name":"id","type":"uint256"}],
+   "outputs":[{"name":"","type":"string"},{"name":"","type":"bool"},
+              {"name":"","type":"uint256"},{"name":"","type":"address"}]},
+  {"type":"event","name":"TugasBaru","anonymous":false,
+   "inputs":[{"name":"id","type":"uint256","indexed":false},
+             {"name":"judul","type":"string","indexed":false},
+             {"name":"pembuat","type":"address","indexed":false}]},
+  {"type":"event","name":"TugasSelesai","anonymous":false,
+   "inputs":[{"name":"id","type":"uint256","indexed":false}]}
+]
